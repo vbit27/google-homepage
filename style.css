@@ -34,7 +34,7 @@ div img {
     border-radius: 30px;
 }  
 
-.material-icons {
+.search-field .material-icons {
     padding: 10px;
 }
 
@@ -61,4 +61,64 @@ div img {
 
 .language-option p {
     font-size: 13px;
+}
+
+/* Menu settings */
+
+nav ul {
+    list-style-type: none;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(32, 32, 32);
+    display: block;
+    padding: 12px;
+}
+
+nav ul li .material-icons {
+    color: grey;
+    padding-top: 8px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+/* Footer Settings */
+
+footer ul {
+    list-style-type: none;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    
+
+}
+
+footer ul li {
+    float: left;
+    padding: 12px;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
 }
