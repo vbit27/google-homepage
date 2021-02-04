@@ -23,6 +23,7 @@ div img {
 }
 
 .search-field {
+    display: inline-flex;
     width: 600px;
     height: 50px;
     background-color: white;
@@ -31,4 +32,13 @@ div img {
     border-color: rgb(187, 186, 186);
     border-radius: 30px;
 }  
+
+.material-icons {
+    padding: 10px;
+}
+
+#site-search {
+    width: 80%;
+    border: transparent;
+}
 
